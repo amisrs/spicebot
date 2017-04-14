@@ -14,7 +14,7 @@ var bot = new Discord.Client();
 var MongoClient = mongodb.MongoClient;
 
 var dburl = "mongodb://localhost:27017/spicebot";
-var token = "MjQ5ODUxODE0ODY5MDczOTIx.CxXKZg.YTjQJzRNgrM5EaRh8zISc8zPHdo";//fs.readFileSync("token.txt", "utf-8");
+var token = fs.readFileSync("token.txt", "utf-8");
 
 var period = "\\.";
 var dollar = "\\$";
