@@ -1,0 +1,27 @@
+{
+  "name": "spicebot",
+  "version": "0.0.1",
+  "description": "spicy",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.1.2",
+    "discord-emoji": "^1.1.0",
+    "discord.js": "^10.0.1",
+    "mongodb": "^2.2.11",
+    "node-emoji": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amisrs/spicebot.git"
+  },
+  "author": "amisrs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amisrs/spicebot/issues"
+  },
+  "homepage": "https://github.com/amisrs/spicebot#readme"
+}
